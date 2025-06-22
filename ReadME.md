@@ -11,8 +11,11 @@ Marcos Luciano Sosa
 Alcance:
 El presente proyecto está orientado a complementar los conocimientos de la cursada.
 
+Utilidad del código:
+El presente programa web sirve para conseguir un numero al azar del 1 al 10
+
 Tecnologías Utilizadas:
-* HTML
+* HTML, CSS, JS
 * Docker
 * Github
 
@@ -25,6 +28,7 @@ cd nombre-del-proyecto
 
 3) Cronstruir y Ejecutar el contenedor de Docker:
 docker build -t practica-istea
+docker run -d -p 8080:80 --name web-html mi-web-html
 
 El mismo se va a ejecutar en el puerto 80:80
 
